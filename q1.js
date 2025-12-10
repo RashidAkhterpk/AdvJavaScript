@@ -4,6 +4,13 @@ let mark3 = +prompt("Enter Marks 3");
 let mark4 = +prompt("Enter Marks 4");
 let mark5 = +prompt("Enter Marks 5");
 
+// function calculate(){
+// let mark1 = document.getElementById("mark1.value")
+// let mark2 = document.getElementById("mark2.value")
+// let mark3 = document.getElementById("mark3.value")
+// let mark4 = document.getElementById("mark4.value")
+// let mark5 = document.getElementById("mark5.value")
+
 let MrkObtn = mark1 + mark2 + mark3 + mark4 + mark5
 
 const TotMark = 500
@@ -25,5 +32,5 @@ document.write(`<h1>Marks Sheet</h1><br>Total Marks: ${TotMark}<br>Marks Obtaine
 :Prcnt >= 41 && Prcnt <= 50 ?
 document.write(`<h1>Marks Sheet</h1><br>Total Marks: ${TotMark}<br>Marks Obtained: ${MrkObtn}<br>Percentage: ${Math.round(Prcnt,2)}%<br>Grade: D<br>Remarks: Need Improvement`)
 :document.write(`<h1>Marks Sheet</h1><br>Total Marks: ${TotMark}<br>Marks Obtained: ${MrkObtn}<br>Percentage: ${Math.round(Prcnt,2)}%<br>Grade: Failed<br>Remarks: Better Luck Next Time`)
-
+// }
 

@@ -1,0 +1,31 @@
+body{
+    /* background-image: url(premium_photo-1701842912302-501bfc88c403.avif);
+    text-align: center; */
+    background-image: url(image.png);
+    background-size: cover;
+    width: 30%;
+    height: 400px;
+    border: 1px solid rgb(206, 176, 96);
+    border-radius: 10px 10px;
+    box-shadow: 10px 10px gray;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
+}
+
+h1{
+    color: black;
+}
+
+/* .Box{
+    background-image: url(stopwatch-close-up-view-photo.jpg);
+    width: 60%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    text-align: center;
+    margin-left: 30%;
+} */

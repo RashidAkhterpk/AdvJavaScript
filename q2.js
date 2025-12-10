@@ -1,7 +1,7 @@
 
 // Q-2
 
-var mobiles = {
+let mobiles = {
     iphone: {
       iphone7: {
         processor: "Snapdragon 8 Gen 2",
@@ -632,4 +632,23 @@ var mobiles = {
     },
   };
 
-document.write(Object.keys(mobiles))
+// document.write(Object.keys(mobiles))
+
+let brand = document.getElementById("brand")
+let model = document.getElementById("model")
+
+
+
+// function FindBrand(){
+//   // let mobbrnd = [mobiles];
+//   // console.log(mobbrnd)
+// }
+  let arr = Object.keys(mobiles);
+
+    for(i=0;i<arr.length;i++){
+    brand.innerHTML = arr[i];
+   }
+  
+
+  
+
